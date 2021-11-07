@@ -1,0 +1,1 @@
+{"version":3,"sources":["styles.css"],"names":[],"mappings":"AAAA,KACI,YAAa,CACb,aAAc,CACd,kDACJ,CACA,GACI,iBACJ","file":"styles.c22ebbc0.css","sourceRoot":"..","sourcesContent":["body {\r\n    height: 100vh;\r\n    color: #1f1f1f;\r\n    background: linear-gradient(to bottom, #bada55, #c0ffee);\r\n}\r\nh1 {\r\n    text-align: center;\r\n}"]}
