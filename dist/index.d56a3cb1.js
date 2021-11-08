@@ -459,8 +459,12 @@ function hmrAcceptRun(bundle, id) {
 }
 
 },{}],"5HwUs":[function(require,module,exports) {
-const name = 'Pili';
-console.log(`Hello ${name}`);
+document.querySelector(".fecha").textContent = new Date().toLocaleDateString('es-ES', {
+    weekday: 'long',
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric'
+});
 
 },{}]},["1Mq12","5HwUs"], "5HwUs", "parcelRequire68ce")
 
