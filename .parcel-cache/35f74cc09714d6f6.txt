@@ -1,4 +1,4 @@
-35190
+35193
 32/home/usuario/proyecto/main/info1636330405095091977 1
 52/home/usuario/proyecto/main/hooks/post-update.sample1636330405065091977 0
 51/home/usuario/proyecto/main/hooks/commit-msg.sample1636330405055091977 0
@@ -20,14 +20,16 @@
 51/home/usuario/proyecto/dist/styles.c22ebbc0.css.map1636330405035091977 0
 47/home/usuario/proyecto/dist/styles.8986bff4.css1636330405015091976 0
 49/home/usuario/proyecto/dist/index.38661719.js.map1636332880055101661 0
-45/home/usuario/proyecto/dist/index.d56a3cb1.js1636359825668598229 0
+45/home/usuario/proyecto/dist/index.d56a3cb1.js1636364307184969814 0
 51/home/usuario/proyecto/dist/styles.8986bff4.css.map1636330405015091976 0
 47/home/usuario/proyecto/dist/styles.c22ebbc0.css1636330405025091976 0
 46/home/usuario/proyecto/dist/styles.8986bff4.js1636330405025091976 0
 46/home/usuario/proyecto/dist/index.9f45714c.css1636359734998597874 0
 50/home/usuario/proyecto/dist/styles.8986bff4.js.map1636330405025091976 0
 48/home/usuario/proyecto/dist/proyecto.e00890fb.js1636330405005091976 0
-27/home/usuario/proyecto/dist1636360718518601722 1
+27/home/usuario/proyecto/dist1636364712434971400 1
+36/home/usuario/proyecto/src/laika.png1636361688596575400 0
+52/home/usuario/proyecto/src/laika.png:Zone.Identifier1636361732568605690 0
 40/home/usuario/proyecto/package-lock.json1636331727065097150 0
 57/home/usuario/proyecto/node_modules/resolve-from/index.js1493366146000000000 0
 61/home/usuario/proyecto/node_modules/resolve-from/package.json1636331535585096400 0
@@ -8066,6 +8068,7 @@
 47/home/usuario/proyecto/node_modules/ws/index.js499162500000000000 0
 49/home/usuario/proyecto/node_modules/pn/test/cp.js1418077406000000000 0
 51/home/usuario/proyecto/node_modules/pn/test/load.js1418075017000000000 0
+46/home/usuario/proyecto/dist/laika.d6d8bebc.png1636364307184969814 0
 43/home/usuario/proyecto/node_modules/pn/test1636331529745096377 1
 84/home/usuario/proyecto/node_modules/postcss-merge-rules/node_modules/postcss/LICENSE499162500000000000 0
 47/home/usuario/proyecto/node_modules/pn/dgram.js1515010282000000000 0
@@ -9243,7 +9246,7 @@
 109/home/usuario/proyecto/node_modules/@parcel/transformer-babel/node_modules/core-js/es/array/virtual/filter.js499162500000000000 0
 115/home/usuario/proyecto/node_modules/@parcel/optimizer-htmlnano/node_modules/htmlparser2/lib/WritableStream.d.ts.map499162500000000000 0
 107/home/usuario/proyecto/node_modules/@parcel/transformer-babel/node_modules/core-js/internals/math-fround.js499162500000000000 0
-26/home/usuario/proyecto/src1636359165598595646 1
+26/home/usuario/proyecto/src1636361732568605690 1
 52/home/usuario/proyecto/node_modules/extend/README.md499162500000000000 0
 114/home/usuario/proyecto/node_modules/@parcel/transformer-babel/node_modules/core-js/internals/collection-add-all.js499162500000000000 0
 53/home/usuario/proyecto/node_modules/relateurl/license1442370472000000000 0
@@ -16861,7 +16864,7 @@
 110/home/usuario/proyecto/node_modules/postcss-modules/node_modules/postcss-modules-local-by-default/CHANGELOG.md499162500000000000 0
 88/home/usuario/proyecto/node_modules/@parcel/packager-css/node_modules/@parcel/logger/src1636331657585096878 1
 60/home/usuario/proyecto/node_modules/emoji-regex/package.json1636331666805096914 0
-49/home/usuario/proyecto/dist/index.d56a3cb1.js.map1636359825688598229 0
+49/home/usuario/proyecto/dist/index.d56a3cb1.js.map1636364307204969814 0
 110/home/usuario/proyecto/node_modules/@parcel/optimizer-htmlnano/node_modules/postcss-normalize-string/README.md499162500000000000 0
 121/home/usuario/proyecto/node_modules/@parcel/optimizer-htmlnano/node_modules/htmlnano/lib/modules/removeAttributeQuotes.js499162500000000000 0
 49/home/usuario/proyecto/node_modules/lodash/get.js499162500000000000 0
@@ -20432,7 +20435,7 @@
 113/home/usuario/proyecto/node_modules/@parcel/transformer-babel/node_modules/core-js/modules/esnext.math.signbit.js499162500000000000 0
 61/home/usuario/proyecto/node_modules/core-js/fn/array/slice.js499162500000000000 0
 117/home/usuario/proyecto/node_modules/@parcel/transformer-babel/node_modules/core-js/features/string/virtual/pad-end.js499162500000000000 0
-38/home/usuario/proyecto/dist/index.html1636360718518601722 0
+38/home/usuario/proyecto/dist/index.html1636364307204969814 0
 93/home/usuario/proyecto/node_modules/regenerate-unicode-properties/Script_Extensions/Tangsa.js499162500000000000 0
 104/home/usuario/proyecto/node_modules/postcss-discard-overridden/node_modules/postcss/lib/map-generator.js499162500000000000 0
 112/home/usuario/proyecto/node_modules/@parcel/optimizer-htmlnano/node_modules/cosmiconfig/dist/getDirectory.js.map499162500000000000 0
@@ -23967,7 +23970,7 @@
 85/home/usuario/proyecto/node_modules/@parcel/codeframe/node_modules/color-name/LICENSE499162500000000000 0
 75/home/usuario/proyecto/node_modules/parcel/node_modules/@parcel/workers/lib1636331655225096868 1
 59/home/usuario/proyecto/node_modules/static-module/test/many1636331526915096366 1
-46/home/usuario/proyecto/dist/index.be5cf2f4.css1636359825668598229 0
+46/home/usuario/proyecto/dist/index.be5cf2f4.css1636364712424971400 0
 111/home/usuario/proyecto/node_modules/@parcel/transformer-babel/node_modules/core-js/modules/es.array.index-of.js499162500000000000 0
 57/home/usuario/proyecto/node_modules/statuses/package.json1636331535315096399 0
 76/home/usuario/proyecto/node_modules/@babel/runtime/helpers/classCallCheck.js456789000000000000 0
@@ -24114,7 +24117,7 @@
 67/home/usuario/proyecto/node_modules/which-boxed-primitive/README.md499162500000000000 0
 104/home/usuario/proyecto/node_modules/postcss-normalize-repeat-style/node_modules/postcss/lib/stringify.js499162500000000000 0
 116/home/usuario/proyecto/node_modules/@parcel/transformer-react-refresh-wrap/node_modules/fast-glob/out/utils/index.js499162500000000000 0
-50/home/usuario/proyecto/dist/index.be5cf2f4.css.map1636359825688598229 0
+50/home/usuario/proyecto/dist/index.be5cf2f4.css.map1636364712434971400 0
 107/home/usuario/proyecto/node_modules/@parcel/transformer-posthtml/node_modules/@parcel/utils/src/Deferred.js499162500000000000 0
 86/home/usuario/proyecto/node_modules/@parcel/core/node_modules/@parcel/utils/test/input1636331655605096870 1
 45/home/usuario/proyecto/node_modules/map-cache1636331536015096402 1
@@ -26472,7 +26475,7 @@
 125/home/usuario/proyecto/node_modules/@parcel/transformer-react-refresh-wrap/node_modules/@parcel/utils/src/prettyDiagnostic.js499162500000000000 0
 84/home/usuario/proyecto/node_modules/@parcel/core/node_modules/supports-color/license499162500000000000 0
 121/home/usuario/proyecto/node_modules/@parcel/transformer-react-refresh-wrap/node_modules/@parcel/utils/src/PromiseQueue.js499162500000000000 0
-33/home/usuario/proyecto/src/app.js1636358840028594372 0
+33/home/usuario/proyecto/src/app.js1636362427178608408 0
 118/home/usuario/proyecto/node_modules/@parcel/transformer-react-refresh-wrap/node_modules/@parcel/utils/src/ansi-html.js499162500000000000 0
 105/home/usuario/proyecto/node_modules/postcss-minify-gradients/node_modules/postcss/lib/css-syntax-error.js499162500000000000 0
 61/home/usuario/proyecto/node_modules/stream-browserify/LICENSE499162500000000000 0
@@ -29767,7 +29770,7 @@
 116/home/usuario/proyecto/node_modules/@parcel/packager-js/node_modules/fast-glob/out/providers/transformers/entry.d.ts499162500000000000 0
 95/home/usuario/proyecto/node_modules/@babel/generator/node_modules/source-map/dist/source-map.js1503322374000000000 0
 86/home/usuario/proyecto/node_modules/@parcel/transformer-css/node_modules/color-convert1636331667415096916 1
-37/home/usuario/proyecto/src/index.html1636360717618601719 0
+37/home/usuario/proyecto/src/index.html1636362880418610182 0
 100/home/usuario/proyecto/node_modules/@parcel/packager-js/node_modules/fast-glob/out/providers/sync.js499162500000000000 0
 105/home/usuario/proyecto/node_modules/@parcel/optimizer-htmlnano/node_modules/postcss-minify-params/LICENSE499162500000000000 0
 102/home/usuario/proyecto/node_modules/@parcel/packager-js/node_modules/fast-glob/out/providers/stream.js499162500000000000 0
@@ -31312,7 +31315,7 @@
 103/home/usuario/proyecto/node_modules/@parcel/node-resolver-core/node_modules/@parcel/utils/src/schema.js499162500000000000 0
 52/home/usuario/proyecto/node_modules/nwsapi/README.md499162500000000000 0
 101/home/usuario/proyecto/node_modules/@parcel/node-resolver-core/node_modules/@parcel/utils/src/hash.js499162500000000000 0
-37/home/usuario/proyecto/src/styles.css1636358819648594292 0
+37/home/usuario/proyecto/src/styles.css1636364711884971398 0
 110/home/usuario/proyecto/node_modules/@parcel/reporter-dev-server/node_modules/@parcel/utils/src/prettifyTime.js499162500000000000 0
 80/home/usuario/proyecto/node_modules/caniuse-lite/data/features/css-dir-pseudo.js499162500000000000 0
 85/home/usuario/proyecto/node_modules/caniuse-lite/data/features/css-descendant-gtgt.js499162500000000000 0
