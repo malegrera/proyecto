@@ -1,3 +1,4 @@
+
 :root {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
@@ -6,16 +7,55 @@ body {
     height: 100vh;
     color: #f3f1f1;
     background: linear-gradient(to bottom, #23a703, #c0ffee);
-}
 
+}
+header {
+    background-color: cornsilk;
+    color:rgba(7, 70, 33, 0.836);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 20vh;
+}
 h1 {
     text-align: center;
 }
+nav {
+    display: flex;
+    justify-content: center;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+    display: flex;
+    width: 35vw;
+    justify-content: space-between;
+}
 
+li a {
+    display: block;
+}
+
+nav a {
+    color:rgb(7, 70, 33);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ff1616;
+}
 main {
+    position: fixed;
+    top: 20vh;
+    width: 100vw;
+    height: 70vh;
     display: flex;
     justify-content: space-around;
     flex-direction: row;
+    align-items: center;
 }
 
 article {
@@ -23,11 +63,13 @@ article {
     border-radius: 10%;
     width: 20vw;
     height: 30vh;
+    overflow: hidden;
 }
 
 figure {
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
 }
 
 img {
@@ -40,13 +82,19 @@ footer {
     bottom: 0;
     left: 0;
     width: 100vw;
+    height: 10vh;
     background-color: rgba(250, 250, 250, 0.836);
     color: rgba(7, 70, 33, 0.836);
     display: flex;
     justify-content: space-around;
+    line-height: 10vh;
 }
 
+
 @media (max-width: 700px) {
+    header {
+        font-size: small;
+    }
     main {
         justify-content: space-around;
         flex-direction: column;
@@ -56,4 +104,21 @@ footer {
         width: 60vw;
         height: 20vh; 
     }
+   figure {flex-direction: row;}
+   nav ul {width: 75vw;}
+}
+@media (max-width: 500px) {
+    header {
+        font-size: x-small;
+       
+    }
+img {
+    width: 80%;
+    height: auto;
+} 
+nav ul {
+       width: 100vw;
+       justify-content: space-around;
+    }
+    a {text-align: center;}
 }
