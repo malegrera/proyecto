@@ -28,8 +28,9 @@ header {
 
 }
 
-h1 {
+h1,h2 {
     text-align: center;
+    color: var(--verde-ppal);
 }
 
 nav {
@@ -42,21 +43,24 @@ nav ul {
     margin: 0;
     padding-left: 0;
     display: flex;
-    width: 35vw;
+    width: 45vw;
     justify-content: space-between;
+    
 }
 
 li a {
     display: block;
+    
 }
 
-nav a {
+a {
     color: rgb(7, 70, 33);
     text-transform: uppercase;
     text-decoration: none;
+    background-color: cornsilk;
 }
 
-nav a:hover {
+a:hover {
     color: orange;
 }
 
@@ -85,7 +89,7 @@ main {
 }
 
 article.ruta {
-    border: 1vmin groove white;
+    border: 1vmin groove cornsilk;
     border-radius: var(--radio);
     width: 20vw;
     height: 30vh;
@@ -119,10 +123,12 @@ footer {
 
 .presentacion {
 
-    border: 1vmin groove var(--verde-ppal);
+    border: 0.5vmin groove var(--verde-ppal);
     color: var(--verde-ppal);
     padding: 1vmin;
     border-radius: var(--radio);
+    font-size: large;
+    max-width: 90%;
     
 }
 
@@ -146,6 +152,25 @@ nav.detalle a:hover {
 article.detalle {
     display: flex;
     flex-direction: column;
+    overflow: visible;
+}
+
+article.enlace {
+    color: ver(--verde-ppal);
+}
+
+article.enlaces ul {
+    list-style-type: none;
+
+}
+
+iframe {
+    height: 25vh;
+    max-width: 90%;
+}
+
+article.enlaces li {
+    text-align: center;
 }
 
 @media (max-width: 700px) {
@@ -161,17 +186,33 @@ article.detalle {
         width: 60vw;
         height: 20vh;
     }
+    article.detalle,article.enlace {
+         width: 60vw;
+        height: 60vh;
+        text-align: center;
+    }
     figure {
         flex-direction: row;
     }
     nav ul {
         width: 75vw;
     }
+      article.enlaces ul {
+        padding-inline-start: 0;
+    }  
 }
 
 @media (max-width: 500px) {
     header {
         font-size: x-small;
+    }
+     article.ruta, article.enlaces {
+         width: 80vw;
+        height: 60vh;
+        text-align: center;
+    }
+    article.enlaces ul {
+        padding-inline-start: 0;
     }
     img {
         width: 80%;
@@ -180,9 +221,13 @@ article.detalle {
     nav ul {
         width: 100vw;
         justify-content: space-around;
+        
     }
     a {
         text-align: center;
+    }
+    footer {
+        font-size: small;
     }
 }
 /*# sourceMappingURL=index.be5cf2f4.css.map */
