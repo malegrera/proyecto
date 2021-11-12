@@ -1,5 +1,7 @@
 :root {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    --verde-ppal: rgb(7, 70, 33);
+    --radio: 2vmin;
 }
 
 body {
@@ -9,12 +11,21 @@ body {
 
 header {
     background-color: cornsilk;
-    color: rgba(7, 70, 33, 0.836);
+    color: var(--verde-ppal);
+    opacity: 0.8;
     position: fixed;
     top: 0;
     left: 0;
     width: 100vw;
     height: 20vh;
+}
+
+header {
+    background-image: url(laika.d6d8bebc.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+
 }
 
 h1 {
@@ -46,7 +57,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #ff1616;
+    color: orange;
 }
 
 .fondo {
@@ -73,9 +84,9 @@ main {
     align-items: center;
 }
 
-article {
+article.ruta {
     border: 1vmin groove white;
-    border-radius: 20%;
+    border-radius: var(--radio);
     width: 20vw;
     height: 30vh;
     overflow: hidden;
@@ -85,6 +96,7 @@ figure {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    align-items: center;
 }
 
 img {
@@ -105,8 +117,35 @@ footer {
     line-height: 10vh;
 }
 
-.principal {
+.presentacion {
+
+    border: 1vmin groove var(--verde-ppal);
+    color: var(--verde-ppal);
+    padding: 1vmin;
+    border-radius: var(--radio);
     
+}
+
+nav.detalle {
+    position: absolute;
+    bottom: 1vim;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav.detalle a {
+    color: var(--verde-ppal);
+    text-decoration: none;
+}
+
+nav.detalle a:hover {
+    color: orange;
+}
+
+article.detalle {
+    display: flex;
+    flex-direction: column;
 }
 
 @media (max-width: 700px) {

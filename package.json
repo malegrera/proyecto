@@ -1,7 +1,7 @@
 {
   "name": "proyecto",
   "version": "1.0.0",
-  "description": "",
+  "description": "proyecto para web de rutas en autocaravana",
   "source": "src/index.html",
   "scripts": {
     "dev": "npm-run-all clean parcel:dev",
@@ -12,13 +12,11 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "María del Pilar Alegre Ramos",
   "license": "ISC",
-  "dependencies": {
-    "parcel-bundler": "^1.12.5"
-  },
   "devDependencies": {
     "autoprefixer": "^10.4.0",
+    "dayjs": "^1.10.7",
     "npm-run-all": "^4.1.5",
     "parcel": "^2.0.0",
     "postcss": "^8.3.11",

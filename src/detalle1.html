@@ -1,19 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./styles.css" />
     <script type="module" src="./app.js"></script>
     <title>Ruta primera</title>
   </head>
   <body>
+    <header>
+      <h1>Rutas en autocaravana</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="categoria.html">Volver</a></li>
+          <li><a href="detalle2.html">Ruta 2</a></li>
+          <li><a href="detalle3.html">Ruta 3</a></li>
+        </ul>
+      </nav>
+    </header>
     <div class="fondo"></div>
     <main>
+     
       <h2>Ruta primera</h2>
-      <p>Es necesario que cada página contenga un mínimo de 3 párrafos de texto, un listado, y algún elemento multimedia: imagen, vídeo, etc</p>
-    
+       <article class="detalle">
+      <p>
+        Aquí puedes ver la duración prevista de la ruta y las ciudades donde se podrá pernoctar.
+      </p>
+      <p>Duración 7 días:
+        <ul><li>Fecha de inicio:
+      <time class="inicio1"></time> </li><li>Fecha de fin:
+      <time class="final1"></time></li></ul></p>
+      <p>Ciudades a visitar:
+        <ul>
+          <li>Sevilla</li>
+          <li>Mérida</li>
+          <li>Zamora</li>
+        </ul>
+      </p>
+      </article>
     </main>
     <footer>
       <div>&copy; Pilar Alegre Ramos</div>
