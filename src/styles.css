@@ -139,7 +139,6 @@ footer {
 
 nav.detalle {
     position: absolute;
-    bottom: 1vim;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -157,7 +156,7 @@ article.detalle {
     overflow: visible;
 }
 article.enlace {
-    color: ver(--verde-ppal);
+    color: var(--verde-ppal);
 }
 article.enlaces ul {
     list-style-type: none;
