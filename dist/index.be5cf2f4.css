@@ -17,7 +17,9 @@ header {
     top: 0;
     left: 0;
     width: 100vw;
-    height: 20vh;
+    min-height: 20vh;
+    z-index: 1;
+
 }
 
 header {
@@ -66,6 +68,7 @@ a:hover {
 
 .fondo {
     position: fixed;
+    right: 0;
     top: 20vh;
     width: 100vw;
     height: 70vh;
@@ -80,6 +83,7 @@ a:hover {
 main {
     position: fixed;
     top: 20vh;
+    right: 0;
     width: 100vw;
     height: 70vh;
     display: flex;
