@@ -19,10 +19,6 @@ header {
     width: 100vw;
     min-height: 20vh;
     z-index: 1;
-
-}
-
-header {
     background-image: url(laika.d6d8bebc.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -90,9 +86,10 @@ main {
     justify-content: space-around;
     flex-direction: row;
     align-items: center;
+    overflow:scroll;
 }
 
-article.ruta {
+div.ruta {
     border: 1vmin groove cornsilk;
     border-radius: var(--radio);
     width: 20vw;
@@ -138,7 +135,6 @@ footer {
 
 nav.detalle {
     position: absolute;
-    bottom: 1vim;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -153,19 +149,22 @@ nav.detalle a:hover {
     color: orange;
 }
 
-article.detalle {
+div.detalle {
     display: flex;
     flex-direction: column;
     overflow: visible;
 }
 
-article.enlace {
-    color: ver(--verde-ppal);
+div.enlaces {
+    color: var(--verde-ppal);
 }
 
-article.enlaces ul {
+div.enlaces ul {
     list-style-type: none;
+}
 
+div.enlaces p {
+    color:cornsilk;
 }
 
 iframe {
@@ -173,7 +172,7 @@ iframe {
     max-width: 90%;
 }
 
-article.enlaces li {
+div.enlaces li {
     text-align: center;
 }
 
@@ -186,11 +185,11 @@ article.enlaces li {
         flex-direction: column;
         align-items: center;
     }
-    article {
+    div.ruta {
         width: 60vw;
         height: 20vh;
     }
-    article.detalle,article.enlace {
+    div.detalle, div.enlaces {
          width: 60vw;
         height: 60vh;
         text-align: center;
@@ -201,7 +200,7 @@ article.enlaces li {
     nav ul {
         width: 75vw;
     }
-      article.enlaces ul {
+      div.enlaces ul {
         padding-inline-start: 0;
     }  
 }
@@ -210,12 +209,12 @@ article.enlaces li {
     header {
         font-size: x-small;
     }
-     article.ruta, article.enlaces {
+     div.ruta, div.enlaces {
          width: 80vw;
         height: 60vh;
         text-align: center;
     }
-    article.enlaces ul {
+    div.enlaces ul {
         padding-inline-start: 0;
     }
     img {
