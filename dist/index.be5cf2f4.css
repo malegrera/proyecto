@@ -86,7 +86,6 @@ main {
     justify-content: space-around;
     flex-direction: row;
     align-items: center;
-    overflow:scroll;
 }
 
 div.ruta {
@@ -184,6 +183,7 @@ div.enlaces li {
         justify-content: space-around;
         flex-direction: column;
         align-items: center;
+        overflow: scroll;
     }
     div.ruta {
         width: 60vw;
@@ -209,6 +209,7 @@ div.enlaces li {
     header {
         font-size: x-small;
     }
+
      div.ruta, div.enlaces {
          width: 80vw;
         height: 60vh;
