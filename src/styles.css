@@ -44,6 +44,7 @@ nav ul {
     display: flex;
     width: 35vw;
     justify-content: space-between;
+    background-color: cornsilk;
 }
 
 li a {
@@ -119,7 +120,7 @@ footer {
 
 .presentacion {
 
-    border: 1vmin groove var(--verde-ppal);
+    border: 0.5vmin groove var(--verde-ppal);
     color: var(--verde-ppal);
     padding: 1vmin;
     border-radius: var(--radio);
@@ -143,6 +144,11 @@ nav.detalle a:hover {
 article.detalle {
     display: flex;
     flex-direction: column;
+    overflow: visible;
+}
+iframe {
+    height: 25vh;
+    max-width: 90%;
 }
 @media (max-width: 700px) {
     header {
@@ -156,6 +162,11 @@ article.detalle {
     article {
         width: 60vw;
         height: 20vh;
+    }
+    article.detalle {
+         width: 60vw;
+        height: 60vh;
+        text-align: center;
     }
     figure {
         flex-direction: row;
