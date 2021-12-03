@@ -463,7 +463,9 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 var _dayjs = require("dayjs");
 var _dayjsDefault = parcelHelpers.interopDefault(_dayjs);
 document.querySelector(".inicio1").textContent = _dayjsDefault.default().add(1, 'month').format('DD/MM/YYYY');
+document.querySelector(".inicio1").setAttribute("datetime", _dayjsDefault.default().add(1, 'month').format('YYYY/MM/DD'));
 document.querySelector(".final1").textContent = _dayjsDefault.default().add(1, 'month').add(7, 'day').format('DD/MM/YYYY');
+document.querySelector(".final1").setAttribute("datetime", _dayjsDefault.default().add(1, 'month').add(7, 'day').format('YYYY/MM/DD'));
 
 },{"dayjs":"enY9E","@parcel/transformer-js/src/esmodule-helpers.js":"ciiiV"}],"enY9E":[function(require,module,exports) {
 !function(t, e) {

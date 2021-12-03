@@ -94,13 +94,22 @@ div.ruta {
     width: 20vw;
     height: 30vh;
     overflow: hidden;
+    display: flex;
+    align-items: center;
 }
 
 figure {
     display: flex;
-    justify-content: space-between;
+    height: 80%;
+    justify-content: space-around;
     flex-direction: column;
     align-items: center;
+    background-color: cornsilk;
+      border-radius: var(--radio);
+}
+
+figure img {
+    border-radius: var(--radio);
 }
 
 img {
@@ -185,7 +194,8 @@ div.enlaces li {
 .caravana {
     bottom: 10vh;
     position: fixed;
-    width: 5vh;
+    height: 4vh;
+    width: auto;
     animation: 25s ease-in 0s infinite normal forwards running recorrer;
 }
 
@@ -197,6 +207,17 @@ div.enlaces li {
 .presentacion {
     animation: 5s linear 2s 1 normal forwards running centrar;
 }
+
+nav a {
+    transition: transform 1s, color 1s;
+}
+
+nav a:hover {
+    transform: translateY(50%) scale(1.5);
+    color: orange;
+}
+
+/*Media Queries*/
 
 @media (max-width: 700px) {
     header {

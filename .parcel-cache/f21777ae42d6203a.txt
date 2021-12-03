@@ -1,4 +1,4 @@
-27120
+27123
 32/home/usuario/proyecto/main/info1636330405095091977 1
 52/home/usuario/proyecto/main/hooks/post-update.sample1636330405065091977 0
 51/home/usuario/proyecto/main/hooks/commit-msg.sample1636330405055091977 0
@@ -11,20 +11,21 @@
 32/home/usuario/proyecto/main/HEAD1636330405045091977 0
 27/home/usuario/proyecto/main1636556890445529100 1
 38/home/usuario/proyecto/.browserslistrc1636366049009663286 0
-52/home/usuario/proyecto/dist/detalle1.ebeddd0f.js.map1638528110341260989 0
-38/home/usuario/proyecto/dist/index.html1638528110341260989 0
-45/home/usuario/proyecto/dist/index.d56a3cb1.js1638528110301260990 0
-45/home/usuario/proyecto/dist/presentacion.html1638528110341260989 0
-48/home/usuario/proyecto/dist/detalle1.ebeddd0f.js1638528110301260990 0
-40/home/usuario/proyecto/dist/enlaces.html1638528110341260989 0
-41/home/usuario/proyecto/dist/detalle1.html1638528110341260989 0
-27/home/usuario/proyecto/dist1638529039021250596 1
+52/home/usuario/proyecto/dist/detalle1.ebeddd0f.js.map1638534721371187003 0
+38/home/usuario/proyecto/dist/index.html1638534714081187085 0
+45/home/usuario/proyecto/dist/index.d56a3cb1.js1638534713961187086 0
+45/home/usuario/proyecto/dist/presentacion.html1638534714101187084 0
+48/home/usuario/proyecto/dist/detalle1.ebeddd0f.js1638534721361187003 0
+40/home/usuario/proyecto/dist/enlaces.html1638534714101187084 0
+41/home/usuario/proyecto/dist/detalle1.html1638534714101187084 0
+27/home/usuario/proyecto/dist1638534978271184128 1
 50/home/usuario/proyecto/src/svg.svg:Zone.Identifier1638476635155608957 0
-35/home/usuario/proyecto/src/fecha.js1636721685087351903 0
+35/home/usuario/proyecto/src/fecha.js1638534721161187005 0
 52/home/usuario/proyecto/src/kosmo.png:Zone.Identifier1638476827235606808 0
-39/home/usuario/proyecto/src/enlaces.html1636746551078086375 0
+39/home/usuario/proyecto/src/enlaces.html1638534491211189579 0
 36/home/usuario/proyecto/src/laika.png1636361688596575400 0
 52/home/usuario/proyecto/src/laika.png:Zone.Identifier1636361732568605690 0
+44/home/usuario/proyecto/src/teatroRomano.jfif1638533787557084500 0
 40/home/usuario/proyecto/src/detalle2.html1636721212957350055 0
 40/home/usuario/proyecto/package-lock.json1636710943154246027 0
 60/home/usuario/proyecto/node_modules/load-json-file/readme.md1477421301000000000 0
@@ -4228,7 +4229,7 @@
 104/home/usuario/proyecto/node_modules/@parcel/transformer-posthtml/node_modules/@parcel/utils/src/index.js499162500000000000 0
 90/home/usuario/proyecto/node_modules/@parcel/transformer-js/parcel-swc.linux-arm64-gnu.node499162500000000000 0
 104/home/usuario/proyecto/node_modules/@parcel/transformer-posthtml/node_modules/@parcel/utils/src/.babelrc499162500000000000 0
-50/home/usuario/proyecto/dist/index.be5cf2f4.css.map1638529039021250596 0
+50/home/usuario/proyecto/dist/index.be5cf2f4.css.map1638534978271184128 0
 107/home/usuario/proyecto/node_modules/@parcel/transformer-posthtml/node_modules/@parcel/utils/src/Deferred.js499162500000000000 0
 86/home/usuario/proyecto/node_modules/@parcel/core/node_modules/@parcel/utils/test/input1636331655605096870 1
 92/home/usuario/proyecto/node_modules/@parcel/package-manager/node_modules/braces/lib/parse.js499162500000000000 0
@@ -4607,7 +4608,7 @@
 56/home/usuario/proyecto/node_modules/lodash/startsWith.js499162500000000000 0
 88/home/usuario/proyecto/node_modules/jsdom/lib/jsdom/living/nodes/HTMLTimeElement-impl.js499162500000000000 0
 120/home/usuario/proyecto/node_modules/@parcel/transformer-react-refresh-wrap/node_modules/@parcel/utils/src/getExisting.js499162500000000000 0
-33/home/usuario/proyecto/src/app.js1636721676247351868 0
+33/home/usuario/proyecto/src/app.js1638534496111189524 0
 118/home/usuario/proyecto/node_modules/@parcel/transformer-react-refresh-wrap/node_modules/@parcel/utils/src/ansi-html.js499162500000000000 0
 62/home/usuario/proyecto/node_modules/lodash/templateSettings.js499162500000000000 0
 110/home/usuario/proyecto/node_modules/@parcel/bundler-default/node_modules/@parcel/utils/src/prettyDiagnostic.js499162500000000000 0
@@ -5471,7 +5472,7 @@
 107/home/usuario/proyecto/node_modules/@parcel/runtime-service-worker/node_modules/@parcel/logger/package.json1636331666505096913 0
 81/home/usuario/proyecto/node_modules/caniuse-lite/data/features/rest-parameters.js499162500000000000 0
 60/home/usuario/proyecto/node_modules/@parcel/transformer-html1636331665915096910 1
-41/home/usuario/proyecto/dist/detalle2.html1638528110341260989 0
+41/home/usuario/proyecto/dist/detalle2.html1638534714101187084 0
 121/home/usuario/proyecto/node_modules/@parcel/transformer-babel/node_modules/core-js/modules/esnext.symbol.async-dispose.js499162500000000000 0
 57/home/usuario/proyecto/node_modules/lodash/fp/isSymbol.js499162500000000000 0
 112/home/usuario/proyecto/node_modules/@parcel/transformer-babel/node_modules/core-js/modules/esnext.map.emplace.js499162500000000000 0
@@ -6326,7 +6327,7 @@
 109/home/usuario/proyecto/node_modules/@parcel/transformer-babel/node_modules/core-js/es/array/virtual/filter.js499162500000000000 0
 115/home/usuario/proyecto/node_modules/@parcel/optimizer-htmlnano/node_modules/htmlparser2/lib/WritableStream.d.ts.map499162500000000000 0
 107/home/usuario/proyecto/node_modules/@parcel/transformer-babel/node_modules/core-js/internals/math-fround.js499162500000000000 0
-26/home/usuario/proyecto/src1638476827235606808 1
+26/home/usuario/proyecto/src1638533860721196635 1
 52/home/usuario/proyecto/node_modules/extend/README.md499162500000000000 0
 114/home/usuario/proyecto/node_modules/@parcel/transformer-babel/node_modules/core-js/internals/collection-add-all.js499162500000000000 0
 109/home/usuario/proyecto/node_modules/@parcel/transformer-babel/node_modules/core-js/internals/composite-key.js499162500000000000 0
@@ -10382,7 +10383,7 @@
 62/home/usuario/proyecto/node_modules/picomatch/lib/constants.js499162500000000000 0
 52/home/usuario/proyecto/node_modules/nan/CHANGELOG.md1628093223000000000 0
 58/home/usuario/proyecto/node_modules/is-typedarray/index.js1431824601000000000 0
-22/home/usuario/proyecto1638528105981261038 1
+22/home/usuario/proyecto1638533175381204305 1
 55/home/usuario/proyecto/node_modules/performance-now/src1636331529295096376 1
 60/home/usuario/proyecto/node_modules/es-abstract/2021/GetV.js499162500000000000 0
 51/home/usuario/proyecto/node_modules/uniqs/README.md1401784073000000000 0
@@ -10536,6 +10537,7 @@
 74/home/usuario/proyecto/node_modules/crypto-browserify/test/random-bytes.js1446473745000000000 0
 73/home/usuario/proyecto/node_modules/@swc/helpers/lib/_get_prototype_of.js1628737830000000000 0
 95/home/usuario/proyecto/node_modules/@parcel/transformer-posthtml/node_modules/fast-glob/LICENSE499162500000000000 0
+60/home/usuario/proyecto/src/teatroRomano.jfif:Zone.Identifier1638533860721196635 0
 114/home/usuario/proyecto/node_modules/@parcel/transformer-babel/node_modules/core-js/features/string/virtual/trim.js499162500000000000 0
 107/home/usuario/proyecto/node_modules/@parcel/optimizer-terser/node_modules/fast-glob/out/readers/stream.d.ts499162500000000000 0
 113/home/usuario/proyecto/node_modules/@parcel/transformer-react-refresh-wrap/node_modules/@parcel/utils/lib/hash.js499162500000000000 0
@@ -10918,7 +10920,7 @@
 80/home/usuario/proyecto/node_modules/@babel/core/node_modules/semver/CHANGELOG.md499162500000000000 0
 91/home/usuario/proyecto/node_modules/parcel/node_modules/@parcel/watcher/prebuilds/linux-x641636331659325096884 1
 60/home/usuario/proyecto/node_modules/emoji-regex/package.json1636331666805096914 0
-49/home/usuario/proyecto/dist/index.d56a3cb1.js.map1638528110321260989 0
+49/home/usuario/proyecto/dist/index.d56a3cb1.js.map1638534713981187086 0
 110/home/usuario/proyecto/node_modules/@parcel/optimizer-htmlnano/node_modules/postcss-normalize-string/README.md499162500000000000 0
 78/home/usuario/proyecto/node_modules/parcel/node_modules/@parcel/fs/lib/find.js499162500000000000 0
 121/home/usuario/proyecto/node_modules/@parcel/optimizer-htmlnano/node_modules/htmlnano/lib/modules/removeAttributeQuotes.js499162500000000000 0
@@ -13854,6 +13856,7 @@
 116/home/usuario/proyecto/node_modules/@parcel/runtime-browser-hmr/node_modules/fast-glob/out/providers/filters/deep.js499162500000000000 0
 106/home/usuario/proyecto/node_modules/@parcel/transformer-babel/node_modules/core-js/features/number/virtual1636331662885096898 1
 113/home/usuario/proyecto/node_modules/@parcel/cache/node_modules/@parcel/utils/test/input/sourcemap/no-sourcemap.js499162500000000000 0
+54/home/usuario/proyecto/dist/teatroRomano.506b0ab9.jfif1638534748191186703 0
 105/home/usuario/proyecto/node_modules/@parcel/transformer-babel/node_modules/core-js/es/regexp/to-string.js499162500000000000 0
 90/home/usuario/proyecto/node_modules/@parcel/optimizer-svgo/node_modules/is-number/index.js499162500000000000 0
 106/home/usuario/proyecto/node_modules/@parcel/transformer-babel/node_modules/core-js/stable/reflect/apply.js499162500000000000 0
@@ -16529,7 +16532,7 @@
 76/home/usuario/proyecto/node_modules/parcel/node_modules/braces/lib/expand.js499162500000000000 0
 91/home/usuario/proyecto/node_modules/postcss-modules/node_modules/postcss/lib/declaration.js499162500000000000 0
 75/home/usuario/proyecto/node_modules/@parcel/reporter-cli/src/CLIReporter.js499162500000000000 0
-46/home/usuario/proyecto/dist/index.be5cf2f4.css1638529039011250596 0
+46/home/usuario/proyecto/dist/index.be5cf2f4.css1638534978261184128 0
 111/home/usuario/proyecto/node_modules/@parcel/transformer-babel/node_modules/core-js/modules/es.array.index-of.js499162500000000000 0
 119/home/usuario/proyecto/node_modules/@parcel/transformer-react-refresh-wrap/node_modules/@parcel/utils/lib/getRootDir.js499162500000000000 0
 75/home/usuario/proyecto/node_modules/dayjs/esm/plugin/buddhistEra/index.d.ts499162500000000000 0
@@ -18557,7 +18560,7 @@
 94/home/usuario/proyecto/node_modules/@parcel/runtime-service-worker/node_modules/@parcel/logger1636331666525096913 1
 108/home/usuario/proyecto/node_modules/@parcel/runtime-service-worker/node_modules/@parcel/logger/src/Logger.js499162500000000000 0
 98/home/usuario/proyecto/node_modules/@parcel/runtime-service-worker/node_modules/@parcel/logger/lib1636331657535096877 1
-41/home/usuario/proyecto/src/categoria.html1636747065418088387 0
+41/home/usuario/proyecto/src/categoria.html1638534747971186705 0
 107/home/usuario/proyecto/node_modules/@parcel/transformer-babel/node_modules/core-js/es/array/virtual/flat.js499162500000000000 0
 90/home/usuario/proyecto/node_modules/@parcel/packager-js/node_modules/chalk/source/index.js499162500000000000 0
 106/home/usuario/proyecto/node_modules/@parcel/optimizer-cssnano/node_modules/css-select/lib/pseudo-selectors1636331661665096894 1
@@ -18832,7 +18835,7 @@
 100/home/usuario/proyecto/node_modules/@parcel/runtime-service-worker/node_modules/glob-parent/index.js499162500000000000 0
 78/home/usuario/proyecto/node_modules/@parcel/packager-js/node_modules/is-number1636331667745096917 1
 106/home/usuario/proyecto/node_modules/@parcel/runtime-service-worker/node_modules/color-convert/package.json1636331667425096916 0
-46/home/usuario/proyecto/dist/laika.d6d8bebc.png1638528110261260990 0
+46/home/usuario/proyecto/dist/laika.d6d8bebc.png1638534713951187086 0
 43/home/usuario/proyecto/node_modules/pn/test1636331529745096377 1
 89/home/usuario/proyecto/node_modules/@parcel/core/node_modules/@parcel/fs/src/OverlayFS.js499162500000000000 0
 103/home/usuario/proyecto/node_modules/@parcel/runtime-service-worker/node_modules/color-convert/README.md499162500000000000 0
@@ -20274,7 +20277,7 @@
 91/home/usuario/proyecto/node_modules/@parcel/optimizer-svgo/node_modules/css-tree/lib/syntax1636331661805096894 1
 54/home/usuario/proyecto/node_modules/dayjs/locale/tk.js499162500000000000 0
 96/home/usuario/proyecto/node_modules/@parcel/packager-html/node_modules/posthtml-render/readme.md499162500000000000 0
-42/home/usuario/proyecto/dist/categoria.html1638528110341260989 0
+42/home/usuario/proyecto/dist/categoria.html1638534748201186703 0
 80/home/usuario/proyecto/node_modules/@parcel/transformer-image/node_modules/chalk1636331667285096916 1
 103/home/usuario/proyecto/node_modules/@parcel/optimizer-svgo/node_modules/css-tree/lib/syntax/node/CDC.js499162500000000000 0
 90/home/usuario/proyecto/node_modules/@parcel/markdown-ansi/node_modules/has-flag/index.d.ts499162500000000000 0
@@ -20991,7 +20994,7 @@
 58/home/usuario/proyecto/node_modules/lodash/_shuffleSelf.js499162500000000000 0
 52/home/usuario/proyecto/node_modules/nwsapi/README.md499162500000000000 0
 101/home/usuario/proyecto/node_modules/@parcel/node-resolver-core/node_modules/@parcel/utils/src/hash.js499162500000000000 0
-37/home/usuario/proyecto/src/styles.css1638529042341250559 0
+37/home/usuario/proyecto/src/styles.css1638534978081184130 0
 110/home/usuario/proyecto/node_modules/@parcel/reporter-dev-server/node_modules/@parcel/utils/src/prettifyTime.js499162500000000000 0
 80/home/usuario/proyecto/node_modules/caniuse-lite/data/features/css-dir-pseudo.js499162500000000000 0
 85/home/usuario/proyecto/node_modules/caniuse-lite/data/features/css-descendant-gtgt.js499162500000000000 0
@@ -26834,7 +26837,7 @@
 67/home/usuario/proyecto/node_modules/elliptic/lib/elliptic/ec/key.js499162500000000000 0
 63/home/usuario/proyecto/node_modules/elliptic/lib/elliptic/eddsa1636331529995096378 1
 60/home/usuario/proyecto/node_modules/elliptic/lib/elliptic.js499162500000000000 0
-41/home/usuario/proyecto/dist/detalle3.html1638528110341260989 0
+41/home/usuario/proyecto/dist/detalle3.html1638534714101187084 0
 48/home/usuario/proyecto/node_modules/astral-regex1636331666975096914 1
 57/home/usuario/proyecto/node_modules/astral-regex/index.js499162500000000000 0
 103/home/usuario/proyecto/node_modules/@parcel/transformer-posthtml/node_modules/@parcel/utils/src/hash.js499162500000000000 0
