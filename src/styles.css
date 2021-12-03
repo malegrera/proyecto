@@ -130,7 +130,7 @@ footer {
     border-radius: var(--radio);
     font-size: large;
     max-width: 90%;
-    
+    opacity: 0;
 }
 
 nav.detalle {
@@ -167,6 +167,27 @@ iframe {
 div.enlaces li {
     text-align: center;
 }
+/*ANIMACIONES Y TRANSICIONES*/
+
+@keyframes recorrer {
+  0% {  left: 0; }
+  100% {  left: 100%; }
+}
+.caravana {
+    bottom: 10vh;
+    position: fixed;
+    width: 5vh;
+    animation: 25s ease-in 0s infinite normal forwards running recorrer;
+}
+@keyframes centrar {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.presentacion {
+    animation: 5s linear 2s 1 normal forwards running centrar;
+}
+
 @media (max-width: 700px) {
     header {
         font-size: small;
