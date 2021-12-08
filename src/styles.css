@@ -278,6 +278,9 @@ svg {
     stroke-width:100%; 
     stroke-dasharray: 10, 42;
 }
+.ruedap {
+    fill: var(--verde-ppal);
+}
 /*Media Queries*/
 @media (max-width: 700px) {
     header {
