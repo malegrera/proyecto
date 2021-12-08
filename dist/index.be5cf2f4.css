@@ -18,12 +18,13 @@ header {
     left: 0;
     width: 100vw;
     min-height: 20vh;
-    z-index: 1;
-    background-image: url(laika.d6d8bebc.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: right;
 z-index: 3;
+justify-content: space-around;
+background-image: url(logotipo.d28745c4.webp);
+background-size: contain;
+background-repeat: no-repeat;
+background-position: 90%;
+
 }
 
 h1,h2 {
@@ -37,7 +38,7 @@ nav {
 }
 
 nav ul {
-    list-style-type: none;
+    
     margin: 0;
     padding-left: 0;
     display: flex;
@@ -46,8 +47,14 @@ nav ul {
     
 }
 
+ul {
+    list-style-type: none;
+    margin-block-start: 0em;
+}
+
 li a {
     display: block;
+
     
 }
 
@@ -129,6 +136,11 @@ footer {
     justify-content: space-around;
     line-height: 10vh;
     z-index: 3;
+        background-image: url(laika.d6d8bebc.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+    font-size: small;
 }
 
 .presentacion {
@@ -166,10 +178,6 @@ div.detalle {
 
 div.enlaces {
     color: var(--verde-ppal);
-}
-
-div.enlaces ul {
-    list-style-type: none;
 }
 
 div.enlaces p {
@@ -214,7 +222,7 @@ nav a {
     transition: transform 1s, color 1s;
 }
 
-nav a:hover {
+header nav a:hover {
     transform: translateY(50%) scale(1.5);
     color: orange;
 }
@@ -275,9 +283,10 @@ main {
     animation:  10s linear 0s 1 normal forwards running elipse;
 }
 
-.fondoclip .poligon {
-     width: 20vw;
-    clip-path: polygon(6% 76%, 38% 77%, 51% 89%, 41% 100%, 0 100%);
+.globos {
+     width: 30vw;
+    border: 0.5em groove var(--verde-ppal);
+    border-radius: var(--radio);
 }
 
 .detalle a {
@@ -310,6 +319,28 @@ svg {
     fill: var(--verde-ppal);
 }
 
+header {overflow: hidden;}
+
+header svg {
+        width: 12vw;
+    height: 14vh;
+    overflow: visible;
+    border: none;
+}
+
+.rutas img {
+    width: 10vw;
+    height: auto;
+    border-radius: var(--radio);
+}
+
+.recortados {
+    width: 25vmax;
+    height: 25vmax;
+    object-fit: cover;
+    clip-path: circle(40%);
+}
+
 /*Media Queries*/
 
 @media (max-width: 700px) {
@@ -335,21 +366,36 @@ svg {
     figure {
         flex-direction: row;
     }
-    nav ul {
+ nav ul {
         width: 75vw;
     }
-      div.enlaces ul {
+       ul {
         padding-inline-start: 0;
     }  
 svg {
     width: 40vw;
-    height: 37vmin;
+    height: 30vmin;
 }
 iframe {
     display: none;
 }
 .detalle a {
     display: block;
+}
+ .globos {
+    width: 80vw;
+    height: 20vh;
+    object-fit: cover;
+}
+.rutas {
+    text-align: center;
+}
+.rutas img {
+width: 25vw;
+}
+.detalle div {
+    display: flex;
+    justify-content: space-between;
 }
 }
 
@@ -363,7 +409,7 @@ iframe {
         height: 60vh;
         text-align: center;
     }
-    div.enlaces ul {
+     ul {
         padding-inline-start: 0;
     }
     img {
@@ -383,7 +429,18 @@ iframe {
     }
     svg {
     width: 50vw;
-    height: 37vh;
+    height: 27vh;
+}
+ .globos {
+    width: 80vw;
+    height: 20vh;
+    object-fit: contain;
+}
+.rutas {
+    text-align: center;
+}
+.rutas  img {
+    width: 20vw;
 }
 }
 /*# sourceMappingURL=index.be5cf2f4.css.map */
