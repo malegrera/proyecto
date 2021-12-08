@@ -465,6 +465,11 @@ document.querySelector(".fecha").textContent = new Date().toLocaleDateString('es
     month: 'long',
     day: 'numeric'
 });
+document.querySelector(".fechac").textContent = new Date().toLocaleDateString('es-ES', {
+    year: 'numeric',
+    month: 'numeric',
+    day: 'numeric'
+});
 
 },{}]},["1Mq12","5HwUs"], "5HwUs", "parcelRequire68ce")
 
